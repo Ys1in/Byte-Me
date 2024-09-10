@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import random
 from find_dots import find_dots
-from checkerAI import AI
+from checkerAI import callMinimax
 
 
 class Piece:
